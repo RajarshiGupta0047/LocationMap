@@ -9,9 +9,7 @@ import {ServiceMap} from './map.service'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  lati=87.8550;
-  longi=22.9868;
-
+  
   latitude = "";
   longitude = "";
   country = "";
