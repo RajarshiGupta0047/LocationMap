@@ -7,8 +7,6 @@ interface Location {
   country_name: string;
   region: string;
   city: string;
-  country_population:string;
-  currency_name:string;
 }
 @Injectable({
   providedIn: "root",
