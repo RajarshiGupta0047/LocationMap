@@ -15,8 +15,7 @@ export class AppComponent {
   country = "";
   region = "";
   city = "";
-  population="";
-  currency="";
+  
   
   location: Object;
 
@@ -31,8 +30,7 @@ export class AppComponent {
       this.country = data.country_name;
       this.region = data.region;
       this.city = data.city;
-      this.population=data.country_population;
-      this.currency=data.currency_name;
+      
     
     });
   }
